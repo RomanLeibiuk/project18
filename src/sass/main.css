@@ -1276,12 +1276,17 @@ body {
 }
 
 .customer-reviews__feedback {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 50px 20px;
+  max-width: 280px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
   color: #000000;
+  background-color: #fafafa;
 }
 
 .customer-reviews__name {
@@ -1291,11 +1296,5 @@ body {
   line-height: 1.86;
   text-align: center;
   color: #000000;
-}
-
-.customer-reviews__feedback,
-.customer-reviews__name {
-  font-family: 'DM Sans', sans-serif;
-  letter-spacing: 0.04em;
 }
 /*# sourceMappingURL=main.css.map */

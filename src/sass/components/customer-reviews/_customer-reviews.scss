@@ -1,6 +1,3 @@
-// to be deleted before pushing to origion
-$secondary-text-color: #000000;
-
 .customer-reviews__img {
   display: block;
   margin-left: auto;
@@ -10,6 +7,11 @@ $secondary-text-color: #000000;
 }
 
 .customer-reviews__feedback {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 50px 20px;
+  max-width: 280px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -17,6 +19,8 @@ $secondary-text-color: #000000;
 
   text-align: center;
   color: $secondary-text-color;
+
+  background-color: #fafafa;
 }
 
 .customer-reviews__name {
@@ -27,10 +31,4 @@ $secondary-text-color: #000000;
 
   text-align: center;
   color: $secondary-text-color;
-}
-
-.customer-reviews__feedback,
-.customer-reviews__name {
-  font-family: 'DM Sans', sans-serif;
-  letter-spacing: 0.04em;
 }
