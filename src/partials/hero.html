@@ -1,9 +1,12 @@
 <section class="hero">
-    <div class="hero__container">
+    <div class="hero__container container">
         <div class="hero__left-wrap">
-            <h1 class="hero__title">ice cream made with passion</h1>
-            <a href="" class="hero__first-btn">Products</a>
-            <a href="" class="hero__second-btn">How it’s made?</a>
+            <h1 class="hero__title">ice cream made with <span>passion</span></h1>
+            <div class="hero__btn-wraper">
+                <a href="" class="hero__first-btn">Products</a>
+                <a href="" class="hero__second-btn">How it’s made?</a>
+            </div>
+            
         </div>
 
         <ul class="hero-list">
@@ -36,17 +39,33 @@
                     <use href="./images/sprite.svg#arrow-long"></use>
                 </svg>
             </a>
-
-            <picture class="hero__img-voomen">
-                <source 
-                srcset="./images/hero/hero-woman-desktop.png 1x, ./images/hero/hero-woman-desktop2x.png 2x"
-                media="(min-width: 1200px)">
-
-                <source 
-                srcset="./images/hero/hero-woman-tablet.png 1x, ./images/hero/hero-woman-tablet2x.png 2x" 
-                media="(min-width: 768px)">
-            
-                <img src="./images/hero/hero-woman-desktop2x.png" alt="woomen with icecream">
-            </picture>
-
         </div>
+
+        <picture class="hero__img-voomen">
+            <source srcset="./images/hero/hero-woman-desktop.png 1x, ./images/hero/hero-woman-desktop2x.png 2x"
+                media="(min-width: 1200px)">
+        
+            <source srcset="./images/hero/hero-woman-tablet.png 1x, ./images/hero/hero-woman-tablet2x.png 2x"
+                media="(min-width: 768px)">
+        
+            <img src="./images/hero/hero-woman-desktop2x.png" alt="woomen with icecream">
+        </picture>
+
+        <div class="hero__ellipse-thumb">
+            <img src="./images/hero/ellipse-hero.png" alt="elipse">
+        </div>
+        
+        <div class="hero__icecream-thumb">
+            <picture>
+                <source srcset="./images/hero/hero-icecream-desktop.png 1x, ./images/hero/hero-icecream-desktop2x.png 2x"
+                    type="image/png" media="(min-width: 1200px)">
+                <source srcset="./images/hero/hero-icecream-tablet.png 1x, ./images/hero/hero-icecream-tablet2x.png 2x"
+                    type="image/png" media="(min-width: 768px)">
+                <source srcset="./images/hero/hero-icecream-mobile.png 1x, ./images/hero/hero-icecream-mobile2x.png 2x"
+                    type="image/png" media="(min-width: 320px)">
+                <img src="./images/hero/hero-icecream-desktop2x.png" alt="icecream" sizes="">
+            </picture>
+        </div>
+
+    </div>
+</section>
