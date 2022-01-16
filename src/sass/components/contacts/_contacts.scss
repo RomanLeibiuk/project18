@@ -1,22 +1,164 @@
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 .contacts-section {
-  background-color: tomato;
+  padding-top: 170px;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+}
+
+.contacts-wrap {
+  background-color: #fff5f6;
+  padding: 0;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+.contacts-container {
+  margin: 0 auto;
+
+  transform: translateY(-84px);
+}
+
+.representation__list {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.representation__item {
+  max-width: 220px;
+  padding: 43px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts__list {
+  display: block;
+  margin-top: 25px;
+}
+
+.contacts__item {
+  margin-top: 25px;
+  &:not(:last-child) {
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+.representation-cafe {
+  width: 80px;
+  padding: 3px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #f0d1a5;
+  text-align: center;
+}
+
+.representation-foodtruck {
+  width: 130px;
+  padding: 3px 25px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #c2e297;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.representation__city {
+  margin-bottom: 25px;
+}
+
+.contacts-item__title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.representation__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.representation-city__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #907e82;
+  margin-top: 10px;
+}
+
+.representation-schedule__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  color: #ffa5ba;
+  text-transform: uppercase;
+}
+
+.schedule__list {
+  margin-bottom: 25px;
+}
+
+.chedule__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.representation-contacts__link {
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #907e82;
+}
+
+.contact-button__list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-button__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.cotacts__button {
+  width: 162px;
+  height: 44px;
+  color: #d41443;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 22px;
+  &:hover,
+  :focus {
+    border: #d41342;
+    color: #ffffff;
+  }
 }

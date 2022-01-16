@@ -1,56 +1,63 @@
 <section class="hero">
     <div class="hero__container container">
-        <div class="hero__left-wrap">
-            <h1 class="hero__title">ice cream made with <span>passion</span></h1>
-            <div class="hero__btn-wraper">
-                <a href="" class="hero__first-btn">Products</a>
-                <a href="" class="hero__second-btn">How it’s made?</a>
+        <div class="hero__top-wrap">
+            <div class="hero__left-wrap">
+                <h1 class="hero__title">ice cream made with <span>passion</span></h1>
+                <div class="hero__btn-wraper">
+                    <a href="" class="hero__first-btn">Products</a>
+                    <a href="" class="hero__second-btn">How it’s made?</a>
+                </div>
+            
             </div>
             
+            <ul class="hero-list">
+                <li class="hero-list__item">
+                    <span></span>
+                    <p class="hero-list__number">16</p>
+                    <p class="hero-list__text">cafes</p>
+                </li>
+                <li class="hero-list__item">
+                    <span></span>
+                    <p class="hero-list__number">23</p>
+                    <p class="hero-list__text">food trucks</p>
+                </li>
+            </ul>
         </div>
-
-        <ul class="hero-list">
-            <li class="hero-list__item">
-                <p class="hero-list__number">16</p>
-                <p class="hero-list__text">cafes</p>
-            </li>
-            <li class="hero-list__item">
-                <p class="hero-list__number">23</p>
-                <p class="hero-list__text">food trucks</p>
-            </li>
-        </ul>
-
-        <div class="hero-card">
-            <div class="hero-card__thumb">
-                <picture class="hero-card__img">
-                    <source 
-                    srcset="./images/hero/hero-milk-desktop.png 1x, ./images/hero/hero-milk-desktop2x.png 2x" 
-                    media="(min-width: 1200px)">
-                    <source 
-                    srcset="./images/hero/hero-milk.png 1x, ./images/hero/hero-milk2x.png 2x" 
-                    media="(min-width: 768px)">
-
-                    <img src="./images/hero/hero-milk-desktop2x.png" alt="milk">
+        
+        <div class="hero__bottom-wrap">
+            <div class="hero-card">
+                <div class="hero-card__thumb">
+                    <picture>
+                        <source srcset="./images/hero/hero-milk-desktop.png 1x, ./images/hero/hero-milk-desktop2x.png 2x"
+                            media="(min-width: 1200px)">
+                        <source srcset="./images/hero/hero-milk.png 1x, ./images/hero/hero-milk2x.png 2x"
+                            media="(min-width: 768px)">
+            
+                        <img src="./images/hero/hero-milk-desktop2x.png" alt="milk">
+                    </picture>
+                </div>
+                <div class="hero-card__wrap">
+                    <p class="hero-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et</p>
+                    <a href="" class="hero-card__link">
+                        <svg class="hero-card__icon" width="9px" height="9px">
+                            <use href="./images/sprite.svg#arrow-long"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero__img-voomen-thumb">
+                <picture>
+                    <source srcset="./images/hero/hero-woman-desktop.png 1x, ./images/hero/hero-woman-desktop2x.png 2x"
+                        media="(min-width: 1200px)">
+                    <source srcset="./images/hero/hero-woman-tablet.png 1x, ./images/hero/hero-woman-tablet2x.png 2x"
+                        media="(min-width: 768px)">
+                    <img src="./images/hero/hero-woman-desktop2x.png" alt="woomen with icecream">
                 </picture>
             </div>
-            <p class="hero-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-            <a href="" class="hero-card__link">
-                <svg class="hero-card__icon" width="9px" height="9px">
-                    <use href="./images/sprite.svg#arrow-long"></use>
-                </svg>
-            </a>
         </div>
-
-        <picture class="hero__img-voomen">
-            <source srcset="./images/hero/hero-woman-desktop.png 1x, ./images/hero/hero-woman-desktop2x.png 2x"
-                media="(min-width: 1200px)">
-        
-            <source srcset="./images/hero/hero-woman-tablet.png 1x, ./images/hero/hero-woman-tablet2x.png 2x"
-                media="(min-width: 768px)">
-        
-            <img src="./images/hero/hero-woman-desktop2x.png" alt="woomen with icecream">
-        </picture>
-
+    
         <div class="hero__ellipse-thumb">
             <img src="./images/hero/ellipse-hero.png" alt="elipse">
         </div>

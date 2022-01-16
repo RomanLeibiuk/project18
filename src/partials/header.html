@@ -19,7 +19,69 @@
         <div class="buttons">
     <button  data-mobile-open type="button"  class="button-open-mobile">
         <svg class="open-mobile-icon"><use href="./images/sprite.svg#icon-Burger"></use></svg></button>
-        <button type="button" class="header-button">Buy now</button>
+        <button data-modal-open-1 type="button" class="header-button">Buy now</button>
+    </div>
+</div>
+
+<!--MODALKA-->
+
+
+<div data-modal-header class="modalka header__modal--is-hidden">
+    <div class="button-header__modal">
+        <button  data-modal-close type="button" class="button-header__close">DONT <br> CLICK <br> HERE</button>
+
+                <form data-modal class="form-modal " name="signup_form" action="./index.html" autocomplete="off" novalidate>
+                    <h2 class="modal-text">Choise your favorite IceCream</h2>
+
+                    <div class="modal">
+                        <label class="modal__label">
+                            What is your name?
+                            <input type="text" name="name" class="modal__input" placeholder="Your name">
+                          </label>
+                    </div>
+
+                      <div class="modal">
+                        <b class="modal-word">Icecream</b>
+                        <img src="./images/home-pic1.jpg" class="modal-photo" width="50px" alt="ggg">
+                        <label class="modal__label">
+                            how much ice cream can you eat?
+                            ...order immediately 
+                            <input type="number" name="amount" class="modal-amount" required min="1" max="10">
+                          </label>
+                    </div>
+            
+                      <div class="modal">
+                        <b class="modal-word">Icecoffe</b>
+                        <img src="./images/home-pic2.png" class="modal-photo" width="50px" alt="ggg">
+                        <label class="modal__label">
+                            how much ice cream can you drink?
+                            ...order immediately 
+                            <input type="number" name="amount" class="modal-amount" required min="1" max="10">
+                          </label>
+                    </div>                           
+
+                    <div class="modal">
+                        <b class="modal-word">Milkshakes</b>
+                        <img src="./images/home-pic3.png" class="modal-photo" width="50px" alt="ggg">
+                        <label class="modal__label">
+                            how much ice cream can you shake?
+                            ...order immediately 
+                            <input type="number" name="amount" class="modal-amount" required min="1" max="10">
+                          </label>
+                    </div>
+
+                    <div class="modal">
+                        <label class="modal__label">
+                            We call you back
+                            <input type="tel" name="tel" class="modal__input" placeholder="+380 (95) 111 11 11">
+                          </label>
+                    </div>
+
+                    <div class="modal">
+                        <button type="submit" class="modal_submit">LETS DO IT!</button>
+                    </div>                        
+                </div>
+                </form>
     </div>
 </div>
 
@@ -27,7 +89,7 @@
             <button  data-mobile-close class="button-close-mobile" type="button">
                 <svg class="close-mobile-icon"><use href="./images/sprite.svg#icon-close"></use></svg>
             </button>
-            <button class="button-mobile-module" type="button">Buy now</button>
+            <button data-modal-open class="button-mobile-module" type="button">Buy now</button>
             <nav>
                 <ul class="header-content">
                     <li class="header-list header-list--active"><a href="">Home</a></li>
