@@ -26,15 +26,15 @@
 }
 
 .about-modal {
-  background-color: #ffa5ba;
-
   margin: 0 auto;
   padding: 15px;
   border-radius: 20px;
   position: absolute;
   width: 100vw;
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
+  background-image: linear-gradient(to top, #d4799080, #ffa5ba85);
+
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 60%), 0px 1px 1px rgb(0 0 0 / 70%),
+    0px 2px 1px rgb(0 0 0 / 90%);
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
